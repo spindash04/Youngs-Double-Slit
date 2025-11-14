@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 28 00:45:26 2024
-
-@author: 08sha
-"""
-
-## program uses units such that hbar = m = 1
 
 #%% solving time dependent schrodinger equation 
 
@@ -235,4 +228,5 @@ for i in range(len(timestamps)):
 plt.xlabel('Position [a.u.]')
 plt.ylabel('Probability')
 plt.legend(('Scaled potential barrier', 't= '+ str(int(timestamps[0]/100)), 't= '+ str(int(timestamps[1]/100)), 't= '+ str(int(timestamps[2]/100))), loc='upper right')
+
 plt.title('Probability densities at a range of times')
