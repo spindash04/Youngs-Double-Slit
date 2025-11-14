@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Dec  3 16:32:00 2024
-
-@author: 08sha
-"""
-
-## program uses units such that hbar = m = 1
 
 #%% solving the time dependent schrodinger equation
 
@@ -155,4 +148,5 @@ def update(i):
 
 # animating probability density
 prob_animation = FuncAnimation(fig, update, interval=50, frames=np.arange(0, len(t), 10), repeat=True)
+
 #prob_animation.save('2DSingleSlit.gif')
