@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 14 13:39:31 2024
-
-@author: 08sha
-"""
-
-## program uses units such that hbar = m = 1
 
 #%% solving time dependent schrodinger equation
 
@@ -197,3 +190,4 @@ plt.xlabel('Position [a.u.]')
 plt.ylabel('Difference')
 plt.legend(('t = 0', 't = 1', 't = 5', 't = 10'), loc='upper left')
 plt.title('Difference between numerical and analytical solutions')
+
