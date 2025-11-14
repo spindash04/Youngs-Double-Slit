@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 11 12:30:48 2024
-
-@author: 08sha
-"""
-
-## program uses units such that hbar = m = 1
 
 #%% solving time dependent schrodinger equation
 
@@ -191,4 +184,5 @@ plt.tick_params(axis='both', labelsize=16)
 plt.xlabel('Initial energy [a.u.]', fontsize=20)
 plt.ylabel('Transmission coeffient', fontsize=20)
 plt.legend(('Numerical', 'Analytical'), loc='center right', fontsize=20)
+
 plt.title('Transmission coefficent for a range of initial wavepacket energies')
